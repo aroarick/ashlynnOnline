@@ -10,7 +10,7 @@ import "../App.css";
 function Navigation() {
   return (
     <>
-      <Navbar bg="light" expand="lg">
+      <Navbar className="navbar" expand="lg">
         <Navbar.Brand className="navbar-title" href="#home">
           Ashlynn Roarick
         </Navbar.Brand>

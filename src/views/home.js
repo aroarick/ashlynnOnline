@@ -7,39 +7,26 @@ import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import "../App.css";
 
+import Projects from "../views/projects";
+import Specialties from "../views/specialties";
+import Blog from "../views/blog";
+
 function Home() {
   return (
     <>
       <Container>
         <Row>
-          <Col lg={8}>
+          <Col>
             <h1 className="home-introduction">
-              Hello! My name is{" "}
-              <a
-                className="home-name-link"
-                href="https://www.linkedin.com/in/ashlynnroarick/"
-              >
-                Ashlynn Roarick
-              </a>
-              . I studied at Southern Methodist University and I live in Dallas,
-              Texas.{" "}
+              I’m a <span className="emphasis">Designer</span> and{" "}
+              <span className="emphasis">Developer</span> who is interested in
+              the development of websites.
             </h1>
           </Col>
         </Row>
-        <Row>
-          <Col lg={9}></Col>
-          <Col lg={3}>
-            <h3 className="home-description">
-              I am a Front-End Web Developer specializing in ReactJS.
-            </h3>
-          </Col>
-        </Row>
-        <Row>
-          <Col>
-            <h1 className="home-inital">A.</h1>
-          </Col>
-        </Row>
       </Container>
+      <Specialties></Specialties>
+      <Projects></Projects>
     </>
   );
 }

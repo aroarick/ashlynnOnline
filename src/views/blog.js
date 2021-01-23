@@ -7,16 +7,22 @@ import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import "../App.css";
 
-function Projects() {
+function Blog() {
   return (
     <>
       <Row className="blog">
         <Container>
           <Row className="blog-row">
             <Col lg={7}>
-              <h1 className="">My Projects</h1>
+              <h1 className="">Blog</h1>
             </Col>
-            <Col lg={5}></Col>
+            <Col lg={5}>
+              <Row>
+                <p className="emphasis">Title</p>
+                <p className="">Introduction</p>
+                <p className="">Date</p>
+              </Row>
+            </Col>
           </Row>
         </Container>
       </Row>
@@ -24,4 +30,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default Blog;
