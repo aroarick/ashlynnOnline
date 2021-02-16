@@ -1,45 +1,90 @@
 /* font-family: 'Fraunces', serif;
-font-family: 'Staatliches', cursive;
-font-family: 'Megrim', cursive;
+font-family: 'Lato', sans-serif;
  */
 
 body {
-  background: #1f2e33;
-  color: #f5f7fa;
+  font-family: "Lato", sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+  padding: 30px;
+}
+
+.navbar-title {
+  font-size: 2em;
   font-family: "Fraunces", serif;
 }
 
-.navbar {
-  background: #1f2e33;
+.nav-contact {
+  background: black;
+  color: white;
 }
 
-.home-introduction {
+.nav-contact-words {
+  margin: 0px;
+  font-size: 12px;
+}
+
+.phone-number {
+  text-align: center;
+}
+
+.email {
+  text-align: center;
+}
+
+/* HOME */
+.home-intro {
   font-family: "Fraunces", serif;
   text-align: center;
-  font-weight: 300;
-  margin-top: 100px;
-  font-size: 3.5em;
+  margin: 5% 10% 2% 10%;
 }
 
-.emphasis {
-  font-weight: 600;
-  color: #ffcba4;
+.home-consultation {
+  font-style: oblique;
+  margin-left: 10%;
 }
+
+.home-mountains {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+/* SPECIALTIES */
 
 .specialties-row {
-  margin-top: 90px;
-  padding-bottom: 50px;
+  background-color: black;
+  margin-top: 40px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.specialties-title {
+  color: white;
+  font-family: "Fraunces", serif;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.specialties-description {
+  color: white;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
 }
 
 .specialties-skills {
-  text-align: right;
+  font-family: "Fraunces", serif;
+  color: white;
+  text-align: center;
+  padding: 10px 10px 5px 10px;
+  font-size: 1.25em;
 }
 
-.blog {
-  background-color: #f5f7fa;
-  color: #1f2e33;
-}
-
-.blog-row {
-  margin-top: 40px;
+.specialties-skills-list {
+  color: white;
+  text-align: center;
+  padding: 0px 10px 10px 10px;
+  list-style-type: none;
 }

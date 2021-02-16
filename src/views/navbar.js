@@ -21,6 +21,14 @@ function Navigation() {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
+      <Row className="nav-contact">
+        <Col>
+          <p className="nav-contact-words phone-number">469-782-6376</p>
+        </Col>
+        <Col>
+          <p className="nav-contact-words email">itsme@ashlynn.online</p>
+        </Col>
+      </Row>
     </>
   );
 }
