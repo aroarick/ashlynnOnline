@@ -115,6 +115,11 @@ function Home() {
           </Row>
         </Col>
       </Row>
+      <Row>
+        <Col>
+          <h1>hi</h1>
+        </Col>
+      </Row>
     </>
   );
 }
